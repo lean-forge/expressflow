@@ -1,12 +1,14 @@
 <br/>
 <br/>
 <p align="center">
-  <img src="./media/ef-banner.jpg" width=500 />
+  <img src="./media/ef-banner.jpg" />
 </p>
-<h3 align="center" >
+<br />
+<br />
+<h2 align="center" >
     expressFlow
-</h3>
-<h4 align="center" >Destitutus ventis, remos adhibe</h4>
+</h2>
+<h3 align="center" >Destitutus ventis, remos adhibe</h3>
 <br />
 <br />
 <br/>
