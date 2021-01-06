@@ -111,8 +111,8 @@ export interface Interface {
 
 ```
 - [components]
-  - [ComponentNameInSentenceCasing]
-      - ComponentNameInSentenceCasing.tsx
+  - [ComponentNameInCamelCase]
+      - ComponentNameInCamelCase.tsx
       - ... whatever files required
 
 - [configs]
@@ -150,10 +150,10 @@ export interface Interface {
 
 ```
 - [components]
-  - [ComponentNameInSentenceCasing]        
-      - ComponentNameInSentenceCasing.tsx
+  - [ComponentNameInCamelCase]        
+      - ComponentNameInCamelCase.tsx
       - [__tests__]
-        - ComponentNameInSentenceCasing.spec.tsx
+        - ComponentNameInCamelCase.spec.tsx
 ```
 
 - goal: applying a TDD-approach (Test Driven Development) for unit tests, where modules get build incrementally, with each change being reflected in the test file
