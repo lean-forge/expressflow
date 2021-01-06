@@ -101,3 +101,64 @@ export interface Interface {
   b: string;
 }
 ```
+
+---
+
+### Project structure
+
+- we're trying to keep a flat and simple structure for all our projects
+- the following schema is used (`[]` used to represent a directory):
+
+```
+- [components]
+  - [ComponentNameInSentenceCasing]
+      - ComponentNameInSentenceCasing.tsx
+      - ... whatever files required
+
+- [configs]
+  - configName.config.ts
+  
+- [hooks]
+  - hookName.hook.ts
+
+- [models]
+  - modelName.model.ts
+
+- [store]
+  - [actions]
+    - actionName.action.ts
+  - [reducers]
+    - reducerName.reducer.ts
+  - [sagas]
+    - sagaName.saga.ts
+  - [types]
+    - typeName.type.ts
+    
+...
+```
+
+- for most files, we're using a suffix (`.model`, `.hook`) to quickly distinguish between the different variants for the same domain (e.g. `scheduler.model.ts`, `scheduler.hook.ts`).
+- all configs are inside of `configs`-directory, those suffixed with `.secret` are not checked in to the git repo
+
+---
+
+### Testing
+
+- collect tests inside each related directory in a separate directory called `__tests__` according to Jest best practices
+- use `.spec` as suffix in the file name
+- example:
+
+```
+- [components]
+  - [ComponentNameInSentenceCasing]        
+      - ComponentNameInSentenceCasing.tsx
+      - [__tests__]
+        - ComponentNameInSentenceCasing.spec.tsx
+```
+
+- goal: applying a TDD-approach (Test Driven Development) for unit tests, where modules get build incrementally, with each change being reflected in the test file
+
+
+
+
+
