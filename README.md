@@ -60,7 +60,7 @@
 - optional, adding more context that might be relevant
 ```
 6. Open PR
-7. Commit changes after feedback & merge PR into master
+7. Commit changes after feedback & merge PR into main after all checks/reviews have approved
 
 ---
 
