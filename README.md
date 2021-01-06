@@ -39,6 +39,10 @@
 - feature/[issue-nr]-title-of-branch
 - enhancement/[issue-nr]-title-of-branch
  ```
+ 
+> **Note:**
+> We're only creating new branches if a related issue exists to keep project management simpler.
+
 3. Commit changes to your branch
 4. Draft a new pull request (`PR`) when you're ready to review your changes:
 ```
@@ -77,7 +81,7 @@
 ### Documentation & code comments
 
 - comment your code according to JSDoc-schema:
-```
+``` typescript
 /**
  * I'm a multine comment, default for function documentation.
  */
