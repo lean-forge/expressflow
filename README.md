@@ -19,7 +19,7 @@
 
 | Name          | Mail                |
 | ------------- | ------------------- |
-| Tom Schönmann | tom@expressflow.com |
+| Martin Vasko  | martin@expressflow.com |
 
 ## Developing
 
